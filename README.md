@@ -45,7 +45,8 @@ Following are some instructions for installing spaCy via pip and conda,
 for more detailed information refer to [spaCy installation instructions](https://spacy.io/usage). 
 
 For using model without transformer on CPU, installing pipeline with 
-`pip install ` installs all needed
+`pip install https://github.com/EstSyntax/EstSpaCy/releases/download/v1.0/et_dep_ud_sm-1.0.0.tar.gz`
+installs all needed
 requirements. Otherwise spaCy and other packages should be installed followingly
 
 ### Installing spaCy for CPU:
@@ -110,15 +111,15 @@ Pipelines can be installed via pip:
 
 - et_dep_ud_xlmroberta
 ```
-pip install 
+pip install https://github.com/EstSyntax/EstSpaCy/releases/download/v1.0/et_dep_ud_xlmroberta-1.0.0.tar.gz
 ```
 - et_dep_ud_estbert
 ```
-pip install 
+pip install https://github.com/EstSyntax/EstSpaCy/releases/download/v1.0/et_dep_ud_estbert-1.0.0.tar.gz
 ```
 - et_dep_ud_sm
 ```
-pip install
+pip install https://github.com/EstSyntax/EstSpaCy/releases/download/v1.0/et_dep_ud_sm-1.0.0.tar.gz
 ```
 
 or by saving chosen model from releases and installing by pointing to local file, e.g:
