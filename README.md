@@ -1,6 +1,6 @@
 SpaCy pipelines for Estonian language
 ---
- 
+
 SpaCy pipelines for Estonian are trained on 
 [Estonian UD v2.5 treebank](https://github.com/UniversalDependencies/UD_Estonian-EDT) 
 using Python 3.6, spaCy 3.0, PyTorch 1.7.1 and follow Universal Dependencies tagsets for part-of-speech,
@@ -35,7 +35,7 @@ GPU puhul võiks mudeli valida vastavalt sellele, mis parsimisel parasjagu kõig
  - `et_dep_ud_xlmroberta`: sisaldab komponente transformer ([xlm-roberta-base](https://huggingface.co/xlm-roberta-base)), 
  morphologizer parser
  
- 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. 
  
 ## Usage
 For using pipelines Python 3.6+ must be used and [spaCy 3.0](https://spacy.io/usage) must be installed 
